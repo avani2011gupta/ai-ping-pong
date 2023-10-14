@@ -1,0 +1,41 @@
+body
+{
+    background-size: cover;
+}
+
+.heading
+{
+    width: 100%;
+    text-align: left;
+    font-family: 'Recursive', sans-serif;
+}
+
+.heading h3
+{
+  display: inline;
+}
+
+.heading button
+{
+    float: right;
+    border: 1px solid white;
+}
+
+.start
+{
+    transition: 2s;
+    font-family: 'Recursive', sans-serif;
+    box-shadow: 5px 5px 5px lightgreen;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.start:hover
+{
+    font-family: 'Recursive', sans-serif;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow:none;
+    transition: 2s;
+    background-color: darkgreen;
+}
+
